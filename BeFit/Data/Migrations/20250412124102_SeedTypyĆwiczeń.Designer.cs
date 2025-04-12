@@ -4,6 +4,7 @@ using BeFit.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BeFit.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250412124102_SeedTypyĆwiczeń")]
+    partial class SeedTypyĆwiczeń
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -336,9 +339,11 @@ namespace BeFit.Data.Migrations
 
             modelBuilder.Entity("BeFit.Models.SesjaTreningowa", b =>
                 {
-                    b.HasOne("BeFit.Models.Użytkownik", null)
+                    b.HasOne("BeFit.Models.Użytkownik", "Użytkownik")
                         .WithMany("SesjeTreningowe")
                         .HasForeignKey("UżytkownikId");
+
+                    b.Navigation("Użytkownik");
                 });
 
             modelBuilder.Entity("BeFit.Models.WykonaneĆwiczenie", b =>

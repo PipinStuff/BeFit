@@ -1,6 +1,7 @@
 using BeFit.Data;
 using BeFit.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BeFit.Controllers
@@ -10,14 +11,17 @@ namespace BeFit.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public SesjeTreningoweController(ApplicationDbContext context)
+        private readonly UserManager<U퓓tkownik> _userManager;
+
+        public SesjeTreningoweController(ApplicationDbContext context, UserManager<U퓓tkownik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         public IActionResult Lista()
         {
-            var idU퓓tkownika = User.Identity.Name;
+            var idU퓓tkownika = _userManager.GetUserId(User);
             var sesje = _context.SesjeTreningowe
                 .Where(s => s.IdU퓓tkownika == idU퓓tkownika)
                 .ToList();
@@ -29,13 +33,25 @@ namespace BeFit.Controllers
         [HttpPost]
         public IActionResult Dodaj(SesjaTreningowa model)
         {
+            model.IdU퓓tkownika = _userManager.GetUserId(User);
+            if (string.IsNullOrEmpty(model.IdU퓓tkownika))
+            {
+                ModelState.AddModelError(nameof(model.IdU퓓tkownika), "IdU퓓tkownika jest wymagane.");
+            }
             if (ModelState.IsValid)
             {
-                model.IdU퓓tkownika = User.Identity.Name;
                 _context.SesjeTreningowe.Add(model);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Lista));
             }
+            else
+            {
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine(error.ErrorMessage);
+                }
+            }
+
             return View(model);
         }
 
@@ -76,5 +92,7 @@ namespace BeFit.Controllers
             }
             return RedirectToAction(nameof(Lista));
         }
+
+
     }
 }

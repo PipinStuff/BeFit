@@ -17,12 +17,11 @@
                 <td>@sesja.DataRozpoczęcia</td>
                 <td>@sesja.DataZakończenia</td>
                 <td>
-                    <a asp-action="Edytuj" asp-route-id="@sesja.Id" class="btn btn-primary">Edytuj</a>
-                    <a asp-action="Usuń" asp-route-id="@sesja.Id" class="btn btn-danger">Usuń</a>
+                    <a asp-action="Ćwiczenia" asp-route-id="@sesja.Id" class="btn btn-primary">Zobacz Ćwiczenia</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Dodaj" class="btn btn-success">Dodaj Nową Sesję</a>
+<a asp-action="Dodaj" class="btn btn-success">Dodaj Sesję</a>

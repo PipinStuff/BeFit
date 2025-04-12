@@ -18,14 +18,14 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Strona Główna</a>
+                            <a class="nav-link" asp-area="" asp-controller="TypĆwiczenia" asp-action="Lista">Typy Ćwiczeń</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Prywatność</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="WykonaneĆwiczenia" asp-action="Lista">Ćwiczenia</a>
-                        </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="SesjeTreningowe" asp-action="Lista">Sesje</a>
+                            </li>
+                        }
                     </ul>
                     <ul class="navbar-nav">
                         @await Html.PartialAsync("_LoginPartial")

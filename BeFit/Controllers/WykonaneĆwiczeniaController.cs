@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using BeFit.Data;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 [Authorize]
 public class WykonaneÆwiczeniaController : Controller
@@ -16,16 +18,26 @@ public class WykonaneÆwiczeniaController : Controller
         _mened¿erU¿ytkownika = mened¿erU¿ytkownika;
     }
 
-    public IActionResult Lista()
+    public IActionResult Lista(int id)
     {
-        var idU¿ytkownika = _mened¿erU¿ytkownika.GetUserId(User);
         var æwiczenia = _kontekst.WykonaneÆwiczenia
-            .Where(c => c.SesjaTreningowa.IdU¿ytkownika == idU¿ytkownika)
+            .Where(c => c.IdSesjiTreningowej == id)
+            .Include(c => c.TypÆwiczenia)
             .ToList();
+
+        ViewBag.SesjaId = id;
         return View(æwiczenia);
     }
 
-    public IActionResult Dodaj() => View();
+
+    public IActionResult Dodaj()
+    {
+        var idU¿ytkownika = _mened¿erU¿ytkownika.GetUserId(User);
+        ViewBag.TypyÆwiczeñ = new SelectList(_kontekst.TypyÆwiczeñ, "Id", "Nazwa");
+        ViewBag.SesjeTreningowe = new SelectList(_kontekst.SesjeTreningowe.Where(s => s.IdU¿ytkownika == idU¿ytkownika), "Id", "DataRozpoczêcia");
+        return View();
+    }
+
 
     [HttpPost]
     public IActionResult Dodaj(WykonaneÆwiczenie model)

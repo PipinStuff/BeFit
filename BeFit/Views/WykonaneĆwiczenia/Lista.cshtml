@@ -1,30 +1,27 @@
 ﻿@model IEnumerable<WykonaneĆwiczenie>
 
-<h2>Lista Wykonanych Ćwiczeń</h2>
+<h2>Ćwiczenia dla Sesji</h2>
 
 <table class="table">
     <thead>
         <tr>
-            <th>Nazwa Ćwiczenia</th>
-            <th>Data Wykonania</th>
-            <th>Powtórzenia</th>
-            <th>Akcje</th>
+            <th>Typ Ćwiczenia</th>
+            <th>Liczba Serii</th>
+            <th>Liczba Powtórzeń</th>
+            <th>Obciążenie (kg)</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var ćwiczenie in Model)
         {
             <tr>
-                <td>@ćwiczenie.NazwaĆwiczenia</td>
-                <td>@ćwiczenie.DataWykonania</td>
+                <td>@ćwiczenie.TypĆwiczenia.Nazwa</td>
+                <td>@ćwiczenie.LiczbaSerii</td>
                 <td>@ćwiczenie.Powtórzenia</td>
-                <td>
-                    <a asp-action="Edytuj" asp-route-id="@ćwiczenie.Id" class="btn btn-primary">Edytuj</a>
-                    <a asp-action="Usuń" asp-route-id="@ćwiczenie.Id" class="btn btn-danger">Usuń</a>
-                </td>
+                <td>@ćwiczenie.Obciążenie</td>
             </tr>
         }
     </tbody>
 </table>
 
-<a asp-action="Dodaj" class="btn btn-success">Dodaj Nowe Ćwiczenie</a>
+<a asp-action="Dodaj" asp-route-id="@ViewBag.SesjaId" class="btn btn-success">Dodaj Ćwiczenie</a>

@@ -294,4 +294,5 @@ C:\Users\Pipin\source\repos\BeFit\BeFit\bin\Debug\net8.0\runtimes\win\lib\net7.0
 C:\Users\Pipin\source\repos\BeFit\BeFit\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Pipin\source\repos\BeFit\BeFit\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Pipin\source\repos\BeFit\BeFit\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Pipin\source\repos\BeFit\BeFit\obj\Debug\net8.0\BeFit.sourcelink.json
 C:\Users\Pipin\source\repos\BeFit\BeFit\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
