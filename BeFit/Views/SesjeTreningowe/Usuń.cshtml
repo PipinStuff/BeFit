@@ -1,0 +1,11 @@
+﻿@model SesjaTreningowa
+
+<h2>Usuń Sesję Treningową</h2>
+
+<p>Czy na pewno chcesz usunąć tę sesję treningową?</p>
+
+<form asp-action="PotwierdźUsunięcie" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Usuń</button>
+    <a asp-action="Lista" class="btn btn-secondary">Anuluj</a>
+</form>

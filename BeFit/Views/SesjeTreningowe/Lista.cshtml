@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SesjaTreningowa>
+
+<h2>Twoje Sesje Treningowe</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data Rozpoczęcia</th>
+            <th>Data Zakończenia</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sesja in Model)
+        {
+            <tr>
+                <td>@sesja.DataRozpoczęcia</td>
+                <td>@sesja.DataZakończenia</td>
+                <td>
+                    <a asp-action="Edytuj" asp-route-id="@sesja.Id" class="btn btn-primary">Edytuj</a>
+                    <a asp-action="Usuń" asp-route-id="@sesja.Id" class="btn btn-danger">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Dodaj" class="btn btn-success">Dodaj Nową Sesję</a>

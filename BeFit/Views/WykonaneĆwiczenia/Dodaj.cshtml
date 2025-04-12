@@ -1,0 +1,23 @@
+﻿@model WykonaneĆwiczenie
+
+<h2>Dodaj Wykonane Ćwiczenie</h2>
+
+<form asp-action="Dodaj" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="NazwaĆwiczenia">Nazwa Ćwiczenia</label>
+        <input asp-for="NazwaĆwiczenia" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label for="DataWykonania">Data Wykonania</label>
+        <input asp-for="DataWykonania" type="datetime-local" class="form-control" />
+        <span asp-validation-for="DataWykonania" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Powtórzenia">Powtórzenia</label>
+        <input asp-for="Powtórzenia" type="number" class="form-control" />
+        <span asp-validation-for="Powtórzenia" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Zapisz</button>
+    <a asp-action="Lista" class="btn btn-secondary">Anuluj</a>
+</form>

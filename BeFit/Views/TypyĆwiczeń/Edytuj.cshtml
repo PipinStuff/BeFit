@@ -1,0 +1,14 @@
+﻿@model TypĆwiczenia
+
+<h2>Edytuj Typ Ćwiczenia</h2>
+
+<form asp-action="Edytuj" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="Nazwa">Nazwa</label>
+        <input asp-for="Nazwa" class="form-control" />
+        <span asp-validation-for="Nazwa" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-success">Zapisz</button>
+    <a asp-action="Lista" class="btn btn-secondary">Anuluj</a>
+</form>

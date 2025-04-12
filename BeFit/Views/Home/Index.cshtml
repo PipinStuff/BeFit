@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Użytkownik> SignInManager
+@inject UserManager<Użytkownik> UserManager
+
+@{
+    ViewData["Title"] = "Strona Startowa";
+}
+
+<h1>Witamy w BeFit</h1>
+
+<p>Wybierz jedną z poniższych opcji:</p>
+
+<div class="d-flex flex-column align-items-start">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <p class="text-success">Jesteś zalogowany jako: <strong>@User.Identity?.Name</strong></p>
+        <a asp-area="" asp-controller="WykonaneĆwiczenia" asp-action="Lista" class="btn btn-primary mb-2">Przejdź do ćwiczeń</a>
+        <a asp-area="Identity" asp-page="/Account/Manage/Index" class="btn btn-secondary mb-2">Zarządzaj kontem</a>
+        <form asp-area="Identity" asp-page="/Account/Logout" method="post" class="d-inline">
+            <button type="submit" class="btn btn-danger">Wyloguj się</button>
+        </form>
+    }
+    else
+    {
+        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-primary mb-2">Zaloguj się</a>
+        <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-secondary">Zarejestruj się</a>
+    }
+</div>

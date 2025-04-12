@@ -1,0 +1,32 @@
+﻿@model IEnumerable<TypĆwiczenia>
+
+<h2>Lista Typów Ćwiczeń</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nazwa</th>
+            <th>Akcje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var typ in Model)
+        {
+            <tr>
+                <td>@typ.Nazwa</td>
+                <td>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <a asp-action="Edytuj" asp-route-id="@typ.Id" class="btn btn-primary">Edytuj</a>
+                        <a asp-action="Usuń" asp-route-id="@typ.Id" class="btn btn-danger">Usuń</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (User.IsInRole("Administrator"))
+{
+    <a asp-action="Dodaj" class="btn btn-success">Dodaj Nowy Typ</a>
+}
