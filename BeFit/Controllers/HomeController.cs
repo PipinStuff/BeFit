@@ -1,6 +1,6 @@
-using System.Diagnostics;
 using BeFit.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace BeFit.Controllers
 {

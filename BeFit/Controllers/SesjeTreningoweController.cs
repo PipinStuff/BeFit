@@ -3,6 +3,7 @@ using BeFit.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BeFit.Controllers
 {
@@ -34,22 +35,19 @@ namespace BeFit.Controllers
         public IActionResult Dodaj(SesjaTreningowa model)
         {
             model.IdU¿ytkownika = _userManager.GetUserId(User);
-            if (string.IsNullOrEmpty(model.IdU¿ytkownika))
+            if (model.DataZakoñczenia < model.DataRozpoczêcia)
             {
-                ModelState.AddModelError(nameof(model.IdU¿ytkownika), "IdU¿ytkownika jest wymagane.");
+                ModelState.AddModelError(nameof(model.DataZakoñczenia), "Data zakoñczenia musi byæ póŸniejsza ni¿ data rozpoczêcia.");
             }
-            if (ModelState.IsValid)
+            else if (model.DataZakoñczenia< new DateTime(2000, 1, 1) || model.DataRozpoczêcia< new DateTime(2000, 1, 1)) 
+            {
+                ModelState.AddModelError(nameof(model.DataZakoñczenia), "Daty nie mog¹ pozostaæ puste lub byæ zbyt odleg³e");
+            }
+            else
             {
                 _context.SesjeTreningowe.Add(model);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Lista));
-            }
-            else
-            {
-                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
-                {
-                    Console.WriteLine(error.ErrorMessage);
-                }
             }
 
             return View(model);
@@ -92,7 +90,16 @@ namespace BeFit.Controllers
             }
             return RedirectToAction(nameof(Lista));
         }
+        public IActionResult Æwiczenia(int id)
+        {
+            var æwiczenia = _context.WykonaneÆwiczenia
+                .Where(c => c.IdSesjiTreningowej == id)
+                .Include(c => c.TypÆwiczenia)
+                .ToList();
 
+            ViewBag.SesjaId = id;
+            return View(æwiczenia);
+        }
 
     }
 }

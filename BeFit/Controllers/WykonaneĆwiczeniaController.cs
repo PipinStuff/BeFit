@@ -1,8 +1,8 @@
+using BeFit.Data;
 using BeFit.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using BeFit.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
@@ -94,4 +94,3 @@ public class Wykonane∆wiczeniaController : Controller
         return RedirectToAction(nameof(Lista));
     }
 }
-    

@@ -9,11 +9,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BeFit.Data.Migrations
+namespace BeFit.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250412124102_SeedTypyĆwiczeń")]
-    partial class SeedTypyĆwiczeń
+    [Migration("20250412205156_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -339,11 +339,9 @@ namespace BeFit.Data.Migrations
 
             modelBuilder.Entity("BeFit.Models.SesjaTreningowa", b =>
                 {
-                    b.HasOne("BeFit.Models.Użytkownik", "Użytkownik")
+                    b.HasOne("BeFit.Models.Użytkownik", null)
                         .WithMany("SesjeTreningowe")
                         .HasForeignKey("UżytkownikId");
-
-                    b.Navigation("Użytkownik");
                 });
 
             modelBuilder.Entity("BeFit.Models.WykonaneĆwiczenie", b =>

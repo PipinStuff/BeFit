@@ -21,7 +21,7 @@ namespace BeFit
 
             builder.Services.AddDefaultIdentity<U¿ytkownik>(options =>
             {
-                options.SignIn.RequireConfirmedAccount = false; 
+                options.SignIn.RequireConfirmedAccount = false;
             })
             .AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
