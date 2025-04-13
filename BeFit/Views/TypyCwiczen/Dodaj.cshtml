@@ -4,7 +4,7 @@
 
 <form asp-action="Dodaj" method="post">
     <div class="form-group">
-        <label for="Nazwa">Nazwa</label>
+        <label asp-for="Nazwa" class="control-label"></label>
         <input asp-for="Nazwa" class="form-control" />
         <span asp-validation-for="Nazwa" class="text-danger"></span>
     </div>

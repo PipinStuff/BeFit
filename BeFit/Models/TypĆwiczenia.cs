@@ -5,8 +5,9 @@ namespace BeFit.Models
     public class Typ∆wiczenia
     {
         public int Id { get; set; }
+
         [Required]
-        [StringLength(100)]
+        [Display(Name = "Nombre del tipo de ejercicio")]
         public string Nazwa { get; set; }
     }
 }

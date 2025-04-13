@@ -1,15 +1,15 @@
 ﻿@model IEnumerable<BeFit.Models.Statystyki>
 
-<h2>Statystyki Użytkownika</h2>
+<h2>Statystyki użytkownika</h2>
 
 <table class="table">
     <thead>
         <tr>
-            <th>Typ Ćwiczenia</th>
-            <th>Liczba Wykonań</th>
-            <th>Łączna Liczba Powtórzeń</th>
-            <th>Średnie Obciążenie (kg)</th>
-            <th>Maksymalne Obciążenie (kg)</th>
+            <th>@Html.DisplayNameFor(m => m.First().TypĆwiczenia)</th>
+            <th>@Html.DisplayNameFor(m => m.First().LiczbaWykonań)</th>
+            <th>@Html.DisplayNameFor(m => m.First().ŁącznaLiczbaPowtórzeń)</th>
+            <th>@Html.DisplayNameFor(m => m.First().ŚrednieObciążenie)</th>
+            <th>@Html.DisplayNameFor(m => m.First().MaksymalneObciążenie)</th>
         </tr>
     </thead>
     <tbody>

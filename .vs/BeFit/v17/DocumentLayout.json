@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\Pipin\\source\\repos\\BeFit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\controllers\\statystykicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\controllers\\statystykicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\wykonanecwiczenia\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\wykonanecwiczenia\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\wykonanecwiczenia\\edytuj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\wykonanecwiczenia\\edytuj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\wykonanecwiczenia\\dodaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\wykonanecwiczenia\\dodaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\typycwiczen\\usu\u0144.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\typycwiczen\\usu\u0144.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\typycwiczen\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\typycwiczen\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\typycwiczen\\edytuj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\typycwiczen\\edytuj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\typycwiczen\\dodaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\typycwiczen\\dodaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\sesjetreningowe\\usu\u0144.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\sesjetreningowe\\usu\u0144.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\sesjetreningowe\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\sesjetreningowe\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\sesjetreningowe\\edytuj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\sesjetreningowe\\edytuj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\sesjetreningowe\\dodaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\sesjetreningowe\\dodaj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\models\\sesjatreningowa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\models\\sesjatreningowa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\statystyki\\statystyki.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\statystyki\\statystyki.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\models\\wykonane\u0107wiczenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\models\\wykonane\u0107wiczenie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\models\\typ\u0107wiczenia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\models\\typ\u0107wiczenia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\models\\statystyki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\models\\statystyki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\controllers\\statystykicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\controllers\\statystykicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\controllers\\sesjetreningowecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\controllers\\sesjetreningowecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\sesjetreningowe\\usu\u0144.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\sesjetreningowe\\usu\u0144.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|c:\\users\\pipin\\source\\repos\\befit\\befit\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48616423-B86B-43F8-8906-7FBC5D62E2D1}|BeFit\\BeFit.csproj|solutionrelative:befit\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 342,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,59 +106,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BeFit\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BeFit\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T14:33:16.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Statystyki.cshtml",
-              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Statystyki\\Statystyki.cshtml",
-              "RelativeDocumentMoniker": "BeFit\\Views\\Statystyki\\Statystyki.cshtml",
-              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Statystyki\\Statystyki.cshtml",
-              "RelativeToolTip": "BeFit\\Views\\Statystyki\\Statystyki.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-13T14:32:54.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Statystyki.cs",
-              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Statystyki.cs",
-              "RelativeDocumentMoniker": "BeFit\\Models\\Statystyki.cs",
-              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Statystyki.cs",
-              "RelativeToolTip": "BeFit\\Models\\Statystyki.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:30:52.913Z",
+              "Title": "Usu\u0144.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Usu\u0144.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\TypyCwiczen\\Usu\u0144.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Usu\u0144.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\TypyCwiczen\\Usu\u0144.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:29:07.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StatystykiController.cs",
-              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Controllers\\StatystykiController.cs",
-              "RelativeDocumentMoniker": "BeFit\\Controllers\\StatystykiController.cs",
-              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Controllers\\StatystykiController.cs",
-              "RelativeToolTip": "BeFit\\Controllers\\StatystykiController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:30:05.245Z",
+              "DocumentIndex": 6,
+              "Title": "Dodaj.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Dodaj.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\TypyCwiczen\\Dodaj.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Dodaj.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\TypyCwiczen\\Dodaj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:15:33.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "Edytuj.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Edytuj.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\SesjeTreningowe\\Edytuj.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Edytuj.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\SesjeTreningowe\\Edytuj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:23:18.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Lista.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\SesjeTreningowe\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Lista.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\SesjeTreningowe\\Lista.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:22:49.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Usu\u0144.cshtml",
               "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Usu\u0144.cshtml",
               "RelativeDocumentMoniker": "BeFit\\Views\\SesjeTreningowe\\Usu\u0144.cshtml",
@@ -119,7 +171,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edytuj.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Edytuj.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\TypyCwiczen\\Edytuj.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Edytuj.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\TypyCwiczen\\Edytuj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:22:20.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dodaj.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\WykonaneCwiczenia\\Dodaj.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\WykonaneCwiczenia\\Dodaj.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\WykonaneCwiczenia\\Dodaj.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\WykonaneCwiczenia\\Dodaj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:17:57.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edytuj.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\WykonaneCwiczenia\\Edytuj.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\WykonaneCwiczenia\\Edytuj.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\WykonaneCwiczenia\\Edytuj.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\WykonaneCwiczenia\\Edytuj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:18:36.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\WykonaneCwiczenia\\Lista.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\WykonaneCwiczenia\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\WykonaneCwiczenia\\Lista.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\WykonaneCwiczenia\\Lista.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:18:45.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Dodaj.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Dodaj.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\SesjeTreningowe\\Dodaj.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\SesjeTreningowe\\Dodaj.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\SesjeTreningowe\\Dodaj.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:23:32.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SesjaTreningowa.cs",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\SesjaTreningowa.cs",
+              "RelativeDocumentMoniker": "BeFit\\Models\\SesjaTreningowa.cs",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\SesjaTreningowa.cs",
+              "RelativeToolTip": "BeFit\\Models\\SesjaTreningowa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:11:43.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Statystyki.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Statystyki\\Statystyki.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\Statystyki\\Statystyki.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Statystyki\\Statystyki.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\Statystyki\\Statystyki.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T14:32:54.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Lista.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\TypyCwiczen\\Lista.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\TypyCwiczen\\Lista.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\TypyCwiczen\\Lista.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T15:21:37.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Typ\u0106wiczenia.cs",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Typ\u0106wiczenia.cs",
+              "RelativeDocumentMoniker": "BeFit\\Models\\Typ\u0106wiczenia.cs",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Typ\u0106wiczenia.cs",
+              "RelativeToolTip": "BeFit\\Models\\Typ\u0106wiczenia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:11:48.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Wykonane\u0106wiczenie.cs",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Wykonane\u0106wiczenie.cs",
+              "RelativeDocumentMoniker": "BeFit\\Models\\Wykonane\u0106wiczenie.cs",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Wykonane\u0106wiczenie.cs",
+              "RelativeToolTip": "BeFit\\Models\\Wykonane\u0106wiczenie.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:11:31.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BeFit\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BeFit\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T14:33:16.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Statystyki.cs",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Statystyki.cs",
+              "RelativeDocumentMoniker": "BeFit\\Models\\Statystyki.cs",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Models\\Statystyki.cs",
+              "RelativeToolTip": "BeFit\\Models\\Statystyki.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:30:52.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatystykiController.cs",
+              "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Controllers\\StatystykiController.cs",
+              "RelativeDocumentMoniker": "BeFit\\Controllers\\StatystykiController.cs",
+              "ToolTip": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Controllers\\StatystykiController.cs",
+              "RelativeToolTip": "BeFit\\Controllers\\StatystykiController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:30:05.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "SesjeTreningoweController.cs",
               "DocumentMoniker": "C:\\Users\\Pipin\\source\\repos\\BeFit\\BeFit\\Controllers\\SesjeTreningoweController.cs",
               "RelativeDocumentMoniker": "BeFit\\Controllers\\SesjeTreningoweController.cs",
