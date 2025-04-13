@@ -1,4 +1,4 @@
-﻿   @model IEnumerable<WykonaneĆwiczenie>
+﻿@model IEnumerable<WykonaneĆwiczenie>
 
 <h2>Ćwiczenia dla Sesji</h2>
 
@@ -7,7 +7,8 @@
         <tr>
             <th>Typ Ćwiczenia</th>
             <th>Liczba Powtórzeń</th>
-            <th>Obciążenie</th>
+            <th>Obciążenie (kg)</th>
+            <th>Akcje</th>
         </tr>
     </thead>
     <tbody>
@@ -17,9 +18,15 @@
                 <td>@ćwiczenie.TypĆwiczenia.Nazwa</td>
                 <td>@ćwiczenie.Powtórzenia</td>
                 <td>@ćwiczenie.Obciążenie</td>
+                <td>
+                    <a asp-action="Edytuj" asp-route-id="@ćwiczenie.Id" class="btn btn-primary btn-sm">Edytuj</a>
+                    <a asp-action="Usuń" asp-route-id="@ćwiczenie.Id" class="btn btn-danger btn-sm">Usuń</a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
 <a asp-action="Dodaj" asp-route-id="@ViewBag.SesjaId" class="btn btn-success">Dodaj Ćwiczenie</a>
+<a asp-controller="SesjeTreningowe" asp-action="Lista" class="btn btn-secondary">Powrót do Sesji</a>
+

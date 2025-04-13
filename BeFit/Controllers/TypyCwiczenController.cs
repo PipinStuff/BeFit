@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace BeFit.Controllers
 {
     [Authorize(Roles = "Administrator")]
-    public class TypÆwiczeniaController : Controller
+    public class TypyCwiczenController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public TypÆwiczeniaController(ApplicationDbContext context)
+        public TypyCwiczenController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -18,8 +18,8 @@ namespace BeFit.Controllers
         [AllowAnonymous]
         public IActionResult Lista()
         {
-            var typyÆwiczeñ = _context.TypyÆwiczeñ.ToList();
-            return View(typyÆwiczeñ);
+            var typyCwiczen = _context.TypyÆwiczeñ.ToList();
+            return View(typyCwiczen);
         }
 
         public IActionResult Dodaj() => View();

@@ -1,34 +1,35 @@
 ﻿@model WykonaneĆwiczenie
 
-<h2>Dodaj Wykonane Ćwiczenie</h2>
+<h2>Edytuj Ćwiczenie</h2>
 
-<form asp-action="Dodaj" method="post">
+<form asp-action="Edytuj" method="post">
     <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="IdSesjiTreningowej" />
+
     <div class="form-group">
         <label for="IdTypuĆwiczenia">Typ Ćwiczenia</label>
         <select asp-for="IdTypuĆwiczenia" class="form-control" asp-items="ViewBag.TypyĆwiczeń"></select>
         <span asp-validation-for="IdTypuĆwiczenia" class="text-danger"></span>
     </div>
+
     <div class="form-group">
-        <label for="IdSesjiTreningowej">Sesja Treningowa</label>
-        <select asp-for="IdSesjiTreningowej" class="form-control" asp-items="ViewBag.SesjeTreningowe"></select>
-        <span asp-validation-for="IdSesjiTreningowej" class="text-danger"></span>
+        <label for="Powtórzenia">Liczba Powtórzeń</label>
+        <input asp-for="Powtórzenia" type="number" class="form-control" />
+        <span asp-validation-for="Powtórzenia" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label for="LiczbaSerii">Liczba Serii</label>
         <input asp-for="LiczbaSerii" type="number" class="form-control" />
         <span asp-validation-for="LiczbaSerii" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label for="Powtórzenia">Powtórzenia</label>
-        <input asp-for="Powtórzenia" type="number" class="form-control" />
-        <span asp-validation-for="Powtórzenia" class="text-danger"></span>
-    </div>
+
     <div class="form-group">
         <label for="Obciążenie">Obciążenie (kg)</label>
         <input asp-for="Obciążenie" type="number" step="0.1" class="form-control" />
         <span asp-validation-for="Obciążenie" class="text-danger"></span>
     </div>
+
     <button type="submit" class="btn btn-success">Zapisz</button>
-    <a asp-action="Lista" class="btn btn-secondary">Anuluj</a>
+    <a asp-action="Lista" asp-route-id="@Model.IdSesjiTreningowej" class="btn btn-secondary">Anuluj</a>
 </form>

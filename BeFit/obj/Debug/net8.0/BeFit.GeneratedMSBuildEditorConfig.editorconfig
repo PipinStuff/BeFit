@@ -56,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXFVzdcWELmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/SesjeTreningowe/Ćwiczenia.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXMSGd2ljemVuaWEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Pipin/source/repos/BeFit/BeFit/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,36 +68,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyĆwiczeń/Dodaj.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwecSGd2ljemXFhFxEb2Rhai5jc2h0bWw=
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/Statystyki/Statystyki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHlzdHlraVxTdGF0eXN0eWtpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyĆwiczeń/Edytuj.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwecSGd2ljemXFhFxFZHl0dWouY3NodG1s
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyCwiczen/Dodaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cRG9kYWouY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyĆwiczeń/Lista.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwecSGd2ljemXFhFxMaXN0YS5jc2h0bWw=
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyCwiczen/Edytuj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cRWR5dHVqLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyĆwiczeń/Usuń.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwecSGd2ljemXFhFxVc3XFhC5jc2h0bWw=
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyCwiczen/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cTGlzdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneĆwiczenia/Dodaj.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmXEhndpY3plbmlhXERvZGFqLmNzaHRtbA==
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/TypyCwiczen/Usuń.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cVXN1xYQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneĆwiczenia/Edytuj.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmXEhndpY3plbmlhXEVkeXR1ai5jc2h0bWw=
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneCwiczenia/Dodaj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcRG9kYWouY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneĆwiczenia/Lista.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmXEhndpY3plbmlhXExpc3RhLmNzaHRtbA==
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneCwiczenia/Edytuj.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcRWR5dHVqLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneĆwiczenia/Usuń.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmXEhndpY3plbmlhXFVzdcWELmNzaHRtbA==
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneCwiczenia/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pipin/source/repos/BeFit/BeFit/Views/WykonaneCwiczenia/Usuń.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcVXN1xYQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Pipin/source/repos/BeFit/BeFit/Views/_ViewImports.cshtml]

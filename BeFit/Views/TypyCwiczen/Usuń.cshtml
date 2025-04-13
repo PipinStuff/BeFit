@@ -4,8 +4,8 @@
 
 <p>Czy na pewno chcesz usunąć typ ćwiczenia: <strong>@Model.Nazwa</strong>?</p>
 
-<form asp-action="PotwierdźUsunięcie" method="post">
+<form asp-action="Usuń" method="post">
     <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Usuń</button>
+    <button type="submit" class="btn btn-danger">Tak, usuń</button>
     <a asp-action="Lista" class="btn btn-secondary">Anuluj</a>
 </form>

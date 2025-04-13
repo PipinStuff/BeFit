@@ -56,7 +56,7 @@ namespace BeFit.Controllers
         public IActionResult Edytuj(int id)
         {
             var sesja = _context.SesjeTreningowe.Find(id);
-            if (sesja == null || sesja.IdUøytkownika != User.Identity.Name) return Unauthorized();
+            if (sesja == null || sesja.IdUøytkownika != _userManager.GetUserId(User)) return Unauthorized();
             return View(sesja);
         }
 
@@ -65,6 +65,7 @@ namespace BeFit.Controllers
         {
             if (ModelState.IsValid)
             {
+                model.IdUøytkownika = _userManager.GetUserId(User);
                 _context.SesjeTreningowe.Update(model);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Lista));
@@ -75,7 +76,7 @@ namespace BeFit.Controllers
         public IActionResult UsuÒ(int id)
         {
             var sesja = _context.SesjeTreningowe.Find(id);
-            if (sesja == null || sesja.IdUøytkownika != User.Identity.Name) return Unauthorized();
+            if (sesja == null || sesja.IdUøytkownika != _userManager.GetUserId(User)) return Unauthorized();
             return View(sesja);
         }
 
@@ -83,7 +84,7 @@ namespace BeFit.Controllers
         public IActionResult PotwierdüUsuniÍcie(int id)
         {
             var sesja = _context.SesjeTreningowe.Find(id);
-            if (sesja != null && sesja.IdUøytkownika == User.Identity.Name)
+            if (sesja != null && sesja.IdUøytkownika == _userManager.GetUserId(User))
             {
                 _context.SesjeTreningowe.Remove(sesja);
                 _context.SaveChanges();
@@ -94,7 +95,6 @@ namespace BeFit.Controllers
         {
             var Êwiczenia = _context.Wykonane∆wiczenia
                 .Where(c => c.IdSesjiTreningowej == id)
-                .Include(c => c.Typ∆wiczenia)
                 .ToList();
 
             ViewBag.SesjaId = id;

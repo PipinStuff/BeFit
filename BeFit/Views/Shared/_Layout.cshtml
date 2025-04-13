@@ -18,12 +18,15 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" asp-controller="TypyĆwiczeń" asp-action="Lista">Typy Ćwiczeń</a>
+                            <a class="nav-link" asp-controller="TypyCwiczen" asp-action="Lista">Typy Ćwiczeń</a>
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="SesjeTreningowe" asp-action="Lista">Sesje</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Statystyki" asp-action="Statystyki">Statystyki</a>
                             </li>
                         }
                     </ul>
