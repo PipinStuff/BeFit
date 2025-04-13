@@ -5,14 +5,14 @@
 <form asp-action="Dodaj" method="post">
     <div class="form-group">
         <label asp-for="DataRozpoczęcia"></label>
-        <input asp-for="DataRozpoczęcia" type="date" class="form-control" />
-        <input asp-for="DataRozpoczęcia" type="time" class="form-control" />
+        <input name="dataRozpoczeciaDate" type="date" class="form-control" />
+        <input name="dataRozpoczeciaTime" type="time" class="form-control" />
         <span asp-validation-for="DataRozpoczęcia" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="DataZakończenia"></label>
-        <input asp-for="DataZakończenia" type="date" class="form-control" />
-        <input asp-for="DataZakończenia" type="time" class="form-control" />
+        <input name="dataZakonczeniaDate" type="date" class="form-control" />
+        <input name="dataZakonczeniaTime" type="time" class="form-control" />
         <span asp-validation-for="DataZakończenia" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-success">Zapisz</button>

@@ -32,14 +32,25 @@ namespace BeFit.Controllers
         public IActionResult Dodaj() => View();
 
         [HttpPost]
-        public IActionResult Dodaj(SesjaTreningowa model)
+        public IActionResult Dodaj(SesjaTreningowa model, string dataRozpoczeciaDate, string dataRozpoczeciaTime, string dataZakonczeniaDate, string dataZakonczeniaTime)
         {
             model.IdU¿ytkownika = _userManager.GetUserId(User);
+
+            if (DateTime.TryParse($"{dataRozpoczeciaDate} {dataRozpoczeciaTime}", out var dataRozpoczecia))
+            {
+                model.DataRozpoczêcia = dataRozpoczecia;
+            }
+
+            if (DateTime.TryParse($"{dataZakonczeniaDate} {dataZakonczeniaTime}", out var dataZakonczenia))
+            {
+                model.DataZakoñczenia = dataZakonczenia;
+            }
+
             if (model.DataZakoñczenia < model.DataRozpoczêcia)
             {
                 ModelState.AddModelError(nameof(model.DataZakoñczenia), "Data zakoñczenia musi byæ póŸniejsza ni¿ data rozpoczêcia.");
             }
-            else if (model.DataZakoñczenia< new DateTime(2000, 1, 1) || model.DataRozpoczêcia< new DateTime(2000, 1, 1)) 
+            else if (model.DataZakoñczenia < new DateTime(2000, 1, 1) || model.DataRozpoczêcia < new DateTime(2000, 1, 1))
             {
                 ModelState.AddModelError(nameof(model.DataZakoñczenia), "Daty nie mog¹ pozostaæ puste lub byæ zbyt odleg³e");
             }
@@ -53,6 +64,7 @@ namespace BeFit.Controllers
             return View(model);
         }
 
+
         public IActionResult Edytuj(int id)
         {
             var sesja = _context.SesjeTreningowe.Find(id);
@@ -61,17 +73,37 @@ namespace BeFit.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edytuj(SesjaTreningowa model)
+        public IActionResult Edytuj(SesjaTreningowa model, string dataRozpoczeciaDate, string dataRozpoczeciaTime, string dataZakonczeniaDate, string dataZakonczeniaTime)
         {
-            if (ModelState.IsValid)
+            if (DateTime.TryParse($"{dataRozpoczeciaDate} {dataRozpoczeciaTime}", out var dataRozpoczecia))
+            {
+                model.DataRozpoczêcia = dataRozpoczecia;
+            }
+
+            if (DateTime.TryParse($"{dataZakonczeniaDate} {dataZakonczeniaTime}", out var dataZakonczenia))
+            {
+                model.DataZakoñczenia = dataZakonczenia;
+            }
+
+            if (model.DataZakoñczenia < model.DataRozpoczêcia)
+            {
+                ModelState.AddModelError(nameof(model.DataZakoñczenia), "Data zakoñczenia musi byæ póŸniejsza ni¿ data rozpoczêcia.");
+            }
+            else if (model.DataZakoñczenia < new DateTime(2000, 1, 1) || model.DataRozpoczêcia < new DateTime(2000, 1, 1))
+            {
+                ModelState.AddModelError(nameof(model.DataZakoñczenia), "Daty nie mog¹ pozostaæ puste lub byæ zbyt odleg³e");
+            }
+            else
             {
                 model.IdU¿ytkownika = _userManager.GetUserId(User);
                 _context.SesjeTreningowe.Update(model);
                 _context.SaveChanges();
                 return RedirectToAction(nameof(Lista));
             }
+
             return View(model);
         }
+
 
         public IActionResult Usuñ(int id)
         {
