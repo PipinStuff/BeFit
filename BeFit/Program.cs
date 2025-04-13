@@ -25,7 +25,8 @@ namespace BeFit
             })
             .AddRoles<IdentityRole>()
             .AddEntityFrameworkStores<ApplicationDbContext>();
-            builder.Services.ConfigureApplicationCookie(options =>
+
+                builder.Services.ConfigureApplicationCookie(options =>
             {
                 options.LoginPath = "/Identity/Account/Login";
                 options.LogoutPath = "/Identity/Account/Logout";
@@ -35,7 +36,20 @@ namespace BeFit
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
             var app = builder.Build();
-
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<ApplicationDbContext>();
+                    await context.Database.MigrateAsync();
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "Coœ nie pyk³o z baz¹ danych");
+                }
+            }
             // Configure the HTTP request pipeline.  
             if (app.Environment.IsDevelopment())
             {
@@ -87,6 +101,11 @@ namespace BeFit
                     await userManager.AddToRoleAsync(adminUser, "Administrator");
                 }
             }
+
+                
+
+
+
 
             await app.RunAsync();
         }
